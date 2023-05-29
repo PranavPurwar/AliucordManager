@@ -12,6 +12,7 @@ buildscript {
 
 allprojects {
     repositories {
+        mavenLocal()
         google()
         mavenCentral()
         maven("https://maven.aliucord.com/snapshots")
